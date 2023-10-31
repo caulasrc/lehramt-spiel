@@ -1,0 +1,44 @@
+@import "~normalize.css";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+
+html {
+    font-family: 'open sans', sans-serif;
+}
+.pt-button { 
+    background-color: #ff0033;
+  }
+
+.cardTitle2Lines {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: N; /* number of lines to show */
+    line-height: X;        /* fallback */
+    max-height: X*N;       /* fallback */
+} 
+
+.pt-mytheme {
+    background-color: #ff0033;  
+  }
+
+
+  .mainBg{
+    background-color: rgb(237,237,237);
+    background: linear-gradient(22deg, rgba(237,237,237,1) 0%, rgba(233,231,231,1) 44%, rgba(255,255,255,1) 100%); 
+  }
+
+
+  .line2ellipsis {
+    display: -webkit-box;
+    max-width: 100%;
+    margin: 0 auto;
+    -webkit-line-clamp: 2;
+    /* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+  }
