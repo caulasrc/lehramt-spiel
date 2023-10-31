@@ -12,7 +12,7 @@ npm run test
 
 For testing purposes, consider integrating `./pages/DebugBar.tsx` into `App.tsx`. This facilitates a streamlined navigation through the game's stages, either manually or automatically.
 
-For convenience, a precompiled production iteration is available at [prebuilt-latest](https://github.com/caulasrc/prebuilt-latest.zip).
+For convenience, a precompiled production iteration is available at [prebuilt-latest](https://github.com/caulasrc/lehramt-spiel/blob/main/prebuilt-latest.zip).
 
 ### Customization Guidelines:
 To tailor the game to your specific requirements, please follow these steps:
